@@ -1,0 +1,62 @@
+body{
+    background-color: #1c1c1c;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.profile-card{
+    background-color: #2e2e2e;
+    border-radius: 20px;
+    padding:10px;
+    text-align: center;
+    width:300px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+.profile-pic{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    margin-bottom:10px;
+    margin-top:10px;
+    
+}
+
+h2{
+    color:white;
+    margin-bottom:0px;
+    font-size:20px;
+    
+}
+
+h4{
+    color:gold;
+    font-size: 12px;
+    margin-bottom:5px;
+}
+
+p{
+    color:white;
+}
+
+.social-links a{
+    display:block;
+    background-color: #3a3a3a;
+    color:white;
+    border-radius: 10px;
+    padding:10px;
+    margin:10px;
+    font-size:14px;
+    text-decoration:none; /* remove underline since a href is used */
+    transition:background-color 0.3s;   
+}
+
+.social-links a:hover{
+    background-color: azure;
+    color:goldenrod;
+    font-weight: bold;
+
+}
